@@ -1,0 +1,12 @@
+# Archivos de módulos
+node_modules
+
+# Logs y Caché
+npm-debug.log*
+yarn-debug.log*
+.nyc_output
+.cache
+/dist
+
+# Entorno y Secretos
+.env
