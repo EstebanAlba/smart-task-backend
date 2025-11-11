@@ -1,6 +1,11 @@
-# Ignorar archivos de entorno
+# --- Ignorar node_modules en todos los microservicios ---
+**/node_modules/
+
+# --- Ignorar archivos de entorno ---
 **/.env
 
-# Ignorar carpetas node_modules en todos los microservicios
-**/node_modules
-*/node_modules
+# --- Ignorar logs y cachés ---
+**/npm-debug.log*
+**/yarn-debug.log*
+**/.cache
+**/dist
